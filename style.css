@@ -1,0 +1,173 @@
+body {
+    scroll-behavior: smooth;
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    background-color: #0d1117;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #1f6feb;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #1f6feb;
+}
+
+    scroll-behavior: smooth;
+
+.about-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #0d1117;
+    margin-top: 40px;
+}
+
+.about-section h2 {
+    color: #1f6feb;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+
+    background-color: #0d1117;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #1f6feb;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.profile-header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #1f6feb;
+}
+
+.highlight {
+    color: #1f6feb;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #1f6feb;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #1f6feb;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #1f6feb;
+    color: #1f6feb;
+}
+
+.btn-outline:hover {
+    background-color: #1f6feb;
+    color: white;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.portfolio-item {
+    background-color: #161b22;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 1.5rem;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    background-color: #1f6feb;
+    color: white;
+}
